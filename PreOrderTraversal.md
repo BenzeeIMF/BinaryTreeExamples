@@ -30,21 +30,21 @@ public class ImplementationOfBT {
     
     public static void main(String[] args) {
         ImplementationOfBT implementationOfBT = new ImplementationOfBT();
-        Node root = implementationOfBT.add(2);
+        Node root = implementationOfBT.add(9);
         implementationOfBT.root = root;
-        root.left = implementationOfBT.add(7);
-        root.right = implementationOfBT.add(5);
-        root.left.left = implementationOfBT.add(12);
-        root.left.right = implementationOfBT.add(6);
-        root.right.right = implementationOfBT.add(9);
-        root.left.right.left = implementationOfBT.add(5);
-        root.left.right.right = implementationOfBT.add(11);
-        root.right.right.left = implementationOfBT.add(4);
+        root.left = implementationOfBT.add(13);
+        root.right = implementationOfBT.add(8);
+        root.left.left = implementationOfBT.add(17);
+        root.left.right = implementationOfBT.add(2);
+        root.right.right = implementationOfBT.add(10);
+        root.left.right.left = implementationOfBT.add(6);
+        root.left.right.right = implementationOfBT.add(1);
+        root.right.right.left = implementationOfBT.add(41);
         implementationOfBT.preOrderTraversal(root);
     }
 }
 ```
 Output - 
 ```
-2 7 12 6 5 11 5 9 4
+9 13 17 2 6 1 8 10 41
 ```
